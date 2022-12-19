@@ -1,0 +1,14 @@
+
+class Teacher < Person
+  attr_reader :specialization 
+  attr_writer :specialization 
+
+  def initialize(specialization,id, age, name, parent_permission)
+    super(id, age, name, parent_permission)
+    @specialization  = specialization 
+  end
+
+  def can_use_services?
+    return true
+  end
+end
