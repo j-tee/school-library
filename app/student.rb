@@ -9,6 +9,6 @@ class Student < Person
   end
 
   def play_hooky
-    '¯(ツ)/¯'
+   return '¯(ツ)/¯'
   end
 end
