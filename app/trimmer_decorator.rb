@@ -1,4 +1,4 @@
-require './decorator'
+require_relative './decorator'
 class TrimmerDecorator < BaseDecorator
   attr_accessor :person
 
