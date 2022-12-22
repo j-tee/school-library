@@ -3,7 +3,7 @@ class TrimmerDecorator < BaseDecorator
   attr_accessor :person
 
   def initialize(person)
-    super()
+    super(person)
     @person = person
   end
 
